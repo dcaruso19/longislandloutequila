@@ -1,0 +1,71 @@
+{{#contentFor "customBodyClass"}}header-style2{{/contentFor}}
+<nav class="navbar navbar-custom style2" role="navigation">
+    <div class="top-bar">
+        <div class="container">        
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="sf-sticker">
+                        <div id="sf-sticker-content">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="social-top">
+                        {{>misc/social-icons custom_class="top"}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="logo-area">
+        <div class="container">
+            <div class="row">
+                <div class="navbar-header">
+                    {{#if @blog.logo}}
+                    <a class="navbar-brand logo-img" href="{{@blog.url}}">
+                        <img src="{{@blog.logo}}" alt="{{@blog.title}}" title="{{@blog.title}}"/>
+                    </a>
+                    {{else}}
+                    <a class="navbar-brand logo-text" href="{{@blog.url}}">{{@blog.title}}</a>
+                    {{/if}}
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".main-nav">
+                        <span>Navigation</span> <i class="fa fa-tasks"></i>
+                    </button>                    
+                </div>                        
+                <div class="ad-area">
+                    {{>widget/image-ad ad_class="banner-ad" ad_image_url="http://previews.sunflowertheme.com/img/leaderboard_placeholder.jpg" ad_url="http://www.sunflowertheme.com"}}                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu-area">
+        <div class="container">
+            <div class="row">                
+                <ul class="nav main-nav collapse navbar-collapse">
+                {{#if @blog.navigation}}
+                    {{navigation}}
+                {{else}}
+                    {{>misc/nav-items}}
+                {{/if}}
+                </ul>
+                <div class="sf-search-button">
+                    <i class="fa fa-search"></i>
+                    <div class="sf-search-container">
+                        <div class="sf-search-container-inner">
+                            <span class="arrow"></span>
+                            <div class="search-container-wrap">
+                                <input type="search" name="search-keyword" id="search-keyword" placeholder="Type and hit enter!"/>
+                                <div class="search-result-wrap">
+                                    <div class="search-result-inner">
+                                        <ul class="search-result"></ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>

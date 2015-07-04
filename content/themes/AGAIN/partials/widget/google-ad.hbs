@@ -1,0 +1,18 @@
+<div class="widget google-ads{{#unless widget_title}} no-title{{/unless}}{{#if custom_class}} {{custom_class}}{{/if}}">
+	{{#if widget_title}}
+	<h3 class="widget-title">{{{widget_title}}}</h3>
+	{{/if}}
+	<div class="widget-content">
+		{{#if ad_client}}
+		<ins class="adsbygoogle{{#if ad_class}} {{ad_class}}{{/if}}" style="display: inline-block;" data-ad-client="{{ad_client}}" data-ad-slot="{{ad_slot}}"></ins>
+		<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async=""></script>
+		<script type="text/javascript">
+			// <![CDATA[
+				(adsbygoogle = window.adsbygoogle || []).push({});
+			// ]]>
+		</script>
+		{{else}}
+		<p>Please provide your ad client and ad slot</p>
+		{{/if}}
+	</div>
+</div>

@@ -1,0 +1,27 @@
+<footer class="site-footer multi-cols">
+	<div class="footer-widget">
+		<div class="container">	
+			<div class="row">		
+				<div class="col-md-4">					
+				{{>widget/newsletter widget_title="Newsletter" desc="<p>Keep up to date with our great news.</p><p>Enter your email address and get all latest content delivered to your inbox a few times a month.</p>" form_url="http://nathandonaldson.us9.list-manage.com/subscribe/post?u=eae0edfa738b391a10d5d80f4&amp;id=ec8ef7844e"}}
+				</div>
+				<div class="col-md-4">
+					{{>widget/tags widget_title="Tag Cloud" style="cloud"}}
+				</div>
+				<div class="col-md-4">
+					{{>widget/flickr widget_title="Flickr Stream" user_id="36587311@N08" display="8" cols="4"}}
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bottom-footer">
+		<div class="gotop">
+			<a class="totop-btn" href="#"><i class="fa fa-chevron-up"></i></a>
+		</div>
+		<div class="copyright">
+			Copyright &copy; 2015 <a href="/">{{@blog.title}}</a> All Rights Reserved.
+			<br/>
+			Proudly published with <a class="icon-ghost" href="http://ghost.org">Ghost</a>
+		</div>
+	</div>
+</footer>

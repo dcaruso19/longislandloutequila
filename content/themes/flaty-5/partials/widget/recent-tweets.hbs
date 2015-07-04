@@ -1,0 +1,17 @@
+<div class="widget recent-tweets{{#unless widget_title}} no-title{{/unless}}{{#if custom_class}} {{custom_class}}{{/if}}">
+	{{#if widget_title}}
+	<h3 class="widget-title">{{{widget_title}}}</h3>
+	{{/if}}
+	<div class="widget-content">
+		{{!
+			- Go to https://twitter.com/settings/widgets to create a twitter widget
+			- And paste your widget content here
+		}}
+		{{#if twitter_widget_id}}
+		<a class="twitter-timeline" href="{{twitter_user_url}}" data-widget-id="{{twitter_widget_id}}">Loading Tweets ...</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		{{else}}
+		<p>Please enter your twitter_user_url and twitter_widget_id option for this widget</p>
+		{{/if}}
+	</div>
+</div>

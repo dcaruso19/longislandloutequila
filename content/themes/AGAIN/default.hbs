@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {{! Document Settings }}
+    <meta charset="utf-8" />
+    {{! Page Meta }}
+    <title>{{meta_title}}</title>
+    <meta name="description" content="{{meta_description}}" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:regular,italic,700' rel='stylesheet' type='text/css'> {{! Change google font here }}        
+    <link rel="stylesheet" type="text/css" href="{{asset "css/style.min.css"}}"/>
+    <link rel="stylesheet" type="text/css" href="{{asset "css/custom.css"}}"/>
+    <script type="text/javascript"> var rootUrl = '{{@blog.url}}';</script>  
+    {{ghost_head}}    
+</head>
+<body class="{{body_class}} pattern {{block "customBodyClass"}} {{block "postList"}}"    
+    data-uppercase="true"    
+    data-infinite-scroll="true"
+    >
+    <div id="fb-root"></div>
+    <!--[if lt IE 9]>
+    <div class="outdated-frame">
+        You are using an <strong>outdated</strong> browser. Please <a href="http://www.google.com/chrome/intl/en/landing_chrome.html">upgrade your browser</a>.
+    </div>
+    <![endif]-->
+    <div class="main-wrap">
+        {{>header/style3}}
+        <div id="main-content">        
+        {{{body}}}        
+        </div>
+        {{>footer/three-columns}}
+    </div>        
+    {{ghost_foot}}    
+    <script type="text/javascript" src="{{asset "js/main.min.js"}}"></script>
+</body>
+</html>

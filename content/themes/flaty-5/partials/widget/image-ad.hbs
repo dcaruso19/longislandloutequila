@@ -1,0 +1,16 @@
+<div class="widget image-ads{{#unless widget_title}} no-title{{/unless}}{{#if custom_class}} {{custom_class}}{{/if}}">
+	{{#if widget_title}}
+	<h3 class="widget-title">{{{widget_title}}}</h3>
+	{{/if}}
+	<div class="widget-content">
+		{{#if ad_image_url}}
+		<div {{#if ad_class}}class="{{ad_class}}"{{/if}}>
+			<a href="{{ad_url}}" target="_blank">
+				<img src="{{ad_image_url}}" alt="" class="img-responsive"/>
+			</a>
+		</div>
+		{{else}}
+		<p>Please provide your ad image</p>
+		{{/if}}
+	</div>
+</div>

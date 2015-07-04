@@ -1,0 +1,34 @@
+<div class="widget newsletter{{#unless widget_title}} no-title{{/unless}}{{#if custom_class}} {{custom_class}}{{/if}}">
+	{{#if widget_title}}
+	<h3 class="widget-title">{{{widget_title}}}</h3>
+	{{/if}}	
+	<div class="widget-content">
+		{{#if desc}}
+	    <div class="desc">
+	    	{{{desc}}}
+	    </div>
+	    {{/if}}
+	    {{#if form_url}}
+		<form class="newsletter-form" action="{{form_url}}" method="post">
+			<div class="input-group">
+				<input id="newsletter-email" type="email" name="EMAIL" placeholder="Email address" class="form-control" required="">
+		      	<span class="input-group-btn">
+		        	<button class="btn btn-theme" type="submit">Subscribe</button>
+		      	</span>
+		    </div>
+		    <div class="alert alert-success fade in" role="alert">
+                <button type="button" class="close" data-dismiss="alert">
+                	<span aria-hidden="true">x</span>
+                	<span class="sr-only">Close</span>
+                </button>
+                <h4 class="alert-title">Thanks For Subscribing!</h4>
+                <p class="alert-text">
+                    Before you'll start to receive our newsletter, you need to confirm your subscription. Please find our confirmation email in your inbox now.
+                </p>                  
+            </div>
+	    </form>
+	    {{else}}
+    	<p>You need to provide your MailChimp Form URL</p>
+    	{{/if}}
+	</div>
+</div>

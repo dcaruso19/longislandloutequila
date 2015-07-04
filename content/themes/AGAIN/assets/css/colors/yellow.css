@@ -1,0 +1,211 @@
+::selection {
+	background: #f3d42c;
+}
+a:hover, a:focus{
+	color: #f3d42c;
+}
+.btn-theme .caret{
+	border-top-color: #f3d42c;
+}
+.btn-theme:hover,
+.btn-theme:focus,
+.btn-theme:active,
+.btn-theme.active,
+.open .dropdown-toggle.btn-theme {
+	border-top-color: #f3d42c;
+	background:#f3d42c;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+	border-color: #f3d42c;
+	color: #f3d42c;
+}
+blockquote {
+	border-left-color:#f3d42c;
+}
+.navbar-custom {
+	border-top-color: #f3d42c;
+}
+.navbar-custom .navbar-header .navbar-brand.logo-text{
+	color: #f3d42c;
+}
+.search-area .banner-search-form:hover #search-keyword{
+	border-color: #f3d42c;
+}
+.search-area .banner-search-form .banner-search-icon{	
+	background-color: #f3d42c;
+}
+.search-area .search-result-wrap .arrow{	
+  	border-bottom-color: #f3d42c;
+}
+.search-area .search-result-wrap .search-result-inner{
+	background-color: #f3d42c;
+}
+.menu-area{
+	background-color: #f3d42c;
+}
+.main-nav>li>a{
+	color: #f3d42c;
+}
+.main-nav>li.has-children>a:before{	
+	color: #f3d42c;
+}
+.main-nav>li.active>a,
+.main-nav>li:hover>a{
+	border-bottom-color: #f3d42c;
+}
+.main-nav>li>ul::before{	
+    border-bottom-color: #f3d42c;
+}
+.main-nav>li>ul>li{    
+  	background-color: #f3d42c;
+}
+.main-nav>li>ul>li>ul::before{	
+    border-right-color: #f3d42c;
+}
+.main-nav>li>ul>li>ul>li{		
+  	background-color: #f3d42c;
+}
+.post-template.header-style2 .sf-search-button .sf-search-container-inner {
+	background-color: #f3d42c;
+}
+.post-template.header-style2 .sf-search-button .sf-search-container-inner .arrow {
+	border-bottom-color: #f3d42c;
+}
+.header-style2 .sf-search-button .sf-search-container .search-result li:hover a {
+	color: #f3d42c;
+}
+.sf-search-button.active > span,
+.sf-search-button:hover > span {
+  color: #f3d42c;
+}
+.sf-search-button.active > i,
+.sf-search-button:hover > i {
+  color: #f3d42c;
+}
+.ticker-wrapper .ticker .ticker-content a:hover { 
+  color: #f3d42c;
+}
+#intro {
+	background-color: #f3d42c;
+}
+#intro .intro-text .back-to-home:hover{	
+	color: #f3d42c;
+}
+.page-info-section{
+	background-color: #f3d42c;
+}
+.post.featured .ribbon{
+	background-color: #f3d42c;
+	border-top: 1px solid #f3d42c;
+	border-bottom: 1px solid #f3d42c;
+}
+.post.featured .ribbon:before,
+.post.featured .ribbon:after{
+	background-color: #f3d42c;
+	border-color: #f3d42c;
+}
+.post .post-media .mask,
+.post-content .post-photo .mask{
+	background-color: #f3d42c;
+	background-color: rgba(243,212,44,0.8);
+}
+.post .post-desc .post-title:before{
+	border-left-color: #f3d42c;
+}
+.post-wrap .post .post-title:before{
+	border-left-color:  #f3d42c;
+}
+.post-wrap .post-author {
+  background-color: #f3d42c;
+}
+.widget .widget-title:before{
+	border-left-color:  #f3d42c;
+}
+.widget.about-me .widget-content .flip-container .flip .back {
+  	background: #f3d42c;
+}
+.widget.about-me .widget-content .flip-container .flip .flip-detail:hover{
+	border-color: #f3d42c;
+	background-color: #f3d42c;
+}
+.widget.about-me .widget-content .flip-container .flip .flip-back:hover{	
+	color: #f3d42c;	
+}
+.widget .sf-tags.stack ul li a:hover .count {
+  	background-color: #f3d42c; 
+}
+.widget .sf-tags.cloud ul li a:hover{
+	border-color: #f3d42c;
+	background-color: #f3d42c;
+}
+.widget .sf-nav-widget li.active > a,
+.widget .sf-nav-widget li.open > a,
+.widget .sf-nav-widget li:hover > a { 
+  background-color: #f3d42c;  
+}
+.widget .sf-search-widget .search-result-widget li:hover a {
+  	color: #f3d42c;
+}
+.feedList li:hover .itemDate{
+	border-color: #f3d42c;
+}
+.feedList li:hover .itemDate span,
+.feedList li:hover .itemContent .title a,
+.feedList li:hover .itemContent .desc,
+.feedList li:hover .itemContent .desc a{
+	color: #f3d42c;
+}
+.outdated-frame{
+    background: #f3d42c;
+}
+#infscr-loading{
+	background: #f3d42c;
+}
+.site-footer .bottom-footer{	
+	border-top-color: #f3d42c;	
+}
+.site-footer .bottom-footer .gotop .totop-btn{	
+	border-color: #f3d42c;
+	color: #f3d42c;
+}
+.site-footer .bottom-footer .gotop .totop-btn i{
+	color: #f3d42c;
+}
+.site-footer .bottom-footer .gotop .totop-btn:hover{
+	background: #f3d42c;
+
+}
+@media only screen and (max-width: 767px) {
+	.main-nav>li>a,
+	.main-nav>li.has-children>a:before{
+		color: #fff;
+	}
+	.main-nav.in:before{		
+		border-bottom-color: #f3d42c;
+	}
+	.main-nav>li {
+		background-color: #f3d42c;
+	}
+	.navbar-toggle{
+		border-color:  #f3d42c;		
+	}	
+	.navbar-toggle span,
+	.navbar-toggle i{
+		color: #f3d42c;
+	}	
+}

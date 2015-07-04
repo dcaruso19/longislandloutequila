@@ -1,0 +1,18 @@
+<section id="intro" {{#if tag.image}}class="covered" style="background-image: url({{tag.image}})"{{else}}{{#if @blog.cover}} class="covered" style="background-image: url({{@blog.cover}})"{{/if}}{{/if}}>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="intro-text">
+					<h1>{{tag.name}}</h1>
+					<h3>
+					{{#if tag.description}}
+						{{tag.description}}
+	        		{{else}}
+						{{plural pagination.total empty='No Post' singular='Discover % Post' plural='Discover % Posts'}} with &#8220;{{tag.name}}&#8221; Tag.
+					{{/if}}
+					</h3>	
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
