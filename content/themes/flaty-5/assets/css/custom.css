@@ -1,6 +1,6 @@
-div.fb-page.fb_iframe_widget{
+/*div.fb-page.fb_iframe_widget{
 	margin-bottom:4rem;
-}
+}*/
 
 i.fa.fa-instagram{
 	background: #517FA4;
@@ -21,7 +21,7 @@ div.widget-about-me{
 }
 
 .widget.about-me .widget-content .flip-container .flip .front .avatar img {
-	width:190px;
+	width:235px;
 }
 
 li a:hover {	
@@ -61,9 +61,9 @@ a.navbar-brand.logo-img img {
   	max-height: 100%;
 }
 
-.post-content .post-photo:nth-child(n+2) {
+/*.post-content .post-photo:nth-child(n+2) {
 	max-width: 32%;
-}
+}*/
 
 div.bio{
 	padding: 2rem;
@@ -73,4 +73,435 @@ div.bio{
 
 .widget .widget-content p {
   text-align: initial;
+}
+
+div.intro-text h1{
+	text-align: center;
+  	font-size: 100px;
+
+}
+
+#intro .intro-text h1 {
+	text-align: center;
+  	font-size: 100px;
+
+}
+
+body[data-uppercase="true"] #intro .intro-text h1 {
+	text-transform: capitalize;
+}
+
+div.post-photo{
+	max-height: 38rem;
+  	max-width: 38rem;
+  	text-align: center;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.post-content .post-photo {
+	margin-left: auto;
+  	margin-right: auto;
+  }
+
+  section.post-content p {
+  	font-size: 15px;
+  }
+
+  section.post-content p:first-child div.post-photo{ 
+  max-height: 75%;
+  max-width: 75%;
+}
+
+div.large div.post-photo {
+	max-width: 26rem;
+	max-height: 38rem;
+}
+
+.widget .sf-search-widget .form-group .search-keyword-widget:focus {
+	color:black;
+	border-color:#5AC5A0;
+}
+
+.widget .sf-search-widget .form-group .search-keyword-widget:hover {
+	border-color:#DC7075;
+}
+
+a.daniel-caruso{
+	font-family: mistral;
+	font-size: 18px;
+}
+
+.twitter-timeline-rendered{
+	margin-left: auto !important;
+margin-right: auto !important;
+display: block !important;
+}
+
+.fb_iframe_widget span {
+		margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+h3.widget-title{
+	text-align: center;
+}
+
+iframe#twitter-widget-1.twitter-timeline.twitter-timeline-rendered{
+		margin-left: auto !important;
+margin-right: auto !important;
+display: block !important;
+}
+
+.timeline {
+max-width: 85% !important;
+margin-bottom: 10px;
+background-color: #FFF;
+border-radius: 5px;
+display: block !important;
+margin-left: auto !important;
+margin-right: auto !important;
+margin-top: 10px !important;
+}
+
+div.fb-page.fb_iframe_widget span{
+	display: block !important;
+margin-left: auto !important;
+margin-right: auto !important;
+}
+
+div.fb-page.fb_iframe_widget{
+	display: block !important;
+}
+
+ins.adsbygoogle{
+	display: block !important;
+margin-left: auto;
+margin-right: auto;
+/*margin-bottom: 4rem;*/
+}
+
+iframe#ad_iframe{
+border: 0px;
+vertical-align: bottom;
+width: 298px;
+height: 248px;
+position: absolute;
+left: 0 !important;
+margin-left: 0 !important;
+top: 0px;
+margin-top: 0px;
+}
+
+.page-info-section .share {
+float: right;
+}
+
+.widget.about-me .widget-content .flip-container .flip .front .avatar {
+	margin:0;
+}
+
+div.flip.clearfix{
+	height: 415px !important;
+}
+
+body[data-uppercase="true"] .post-wrap .post .post-title {
+text-transform: uppercase;
+text-align: center;
+}
+
+.post-wrap .post .post-meta {
+margin: 15px 0 15px 0;
+text-align: center;
+}
+
+.page-info-section {
+  background-color: #DCAA89;
+  color: #fff;
+  padding: 10px 0;
+  overflow: visible;
+  margin-bottom: 30px;
+}
+
+.page-info-section .share {
+  float: right;
+  margin-top: 10px;
+  min-width: 0;
+}
+
+.widget .flickr-feed li a:after, .widget .instagram-feed li a:after, .widget .dribbble-feed li a:after {
+	background-color:initial;
+}
+
+/*.widget .flickr-feed li a:after:hover, .widget .instagram-feed li a:after:hover, .widget .dribbble-feed li a:after:hover {
+	background-color:black;
+}*/
+
+div.dad{
+	display: none;
+}
+
+
+@media (min-width:480px) and (max-width:768px) {
+
+.img-responsive {
+display: block;
+height: auto;
+max-width: 70%;
+margin-left: auto;
+margin-right: auto;
+padding-top: 2rem;
+}
+
+.item-list .post .post-desc .post-title {
+text-align: center;
+}
+
+.container {
+padding-right: 55px;
+padding-left: 55px;
+margin-right: auto;
+margin-left: auto;
+}
+
+.navbar-toggle {
+	margin:0;
+	border-color: #DC7075;
+	border-width: 2px;
+	margin-top: 5px;
+}
+
+.navbar-toggle i {
+	color:#DC7075;
+}
+
+.navbar-brand{
+	padding-top:10px;
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom:12px;
+}
+
+div.logo-area div.container{
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+#intro{
+	margin-bottom:0;
+}
+
+div.col-md-8{
+	margin-top: 2rem;
+}
+
+div.color{
+background: #DC7075;
+width: 100%;
+height: 2rem;
+/*margin-bottom: 1rem;*/
+}
+
+.logo-area {
+	margin:0;
+}
+
+body[data-uppercase="true"] #intro .intro-text h1 {
+text-transform: capitalize;
+font-size: 52px;
+}
+
+body[data-uppercase="true"] .post-wrap .post .post-title {
+text-transform: uppercase;
+text-align: center;
+}
+
+.post-wrap .post .post-meta {
+margin: 15px 0 15px 0;
+text-align: center;
+}
+
+.page-info-section .share {
+  float: none;
+}
+
+div.dad{
+	display: initial;
+}
+
+div.widget.about-me {
+margin-top: 5rem;
+margin-left: 6rem;
+margin-right: 6rem;
+}
+
+}
+
+
+
+@media (max-width:480px) {
+
+.container {
+padding-right: 20px;
+padding-left: 20px;
+margin-right: auto;
+margin-left: auto;
+}
+
+.img-responsive {
+display: block;
+height: auto;
+max-width: 70%;
+margin-left: auto;
+margin-right: auto;
+padding-top: 2rem;
+}
+
+.item-list .post .post-desc .post-title a {
+line-height: 24px;
+font-size: 16px;
+}
+
+.item-list .post .post-desc .post-title {
+text-align: center;
+}
+
+.navbar-toggle {
+	margin:0;
+	border-color: #DC7075;
+	border-width: 2px;
+	margin-top: 5px;
+}
+
+.navbar-toggle i {
+	color:#DC7075;
+
+}
+
+.navbar-brand{
+	padding-top:10px;
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom:12px;
+}
+
+.logo-area {
+	margin:0;
+}
+
+div.color{
+background: #DC7075;
+width: 100%;
+height: 2rem;
+/*margin-bottom: 1rem;*/
+}
+
+.page-info-section .breadcrumb li {
+color: #FFF;
+font-size: 12px;
+}
+
+/*.page-info-section .share .addthis_toolbox {
+display: inline-block;
+margin-left: auto;
+margin-right: auto;
+}*/
+
+.post-wrap .post .post-title a {
+font-weight: 700;
+font-size: 22px;
+line-height: 28px;
+}
+
+.post-wrap .post .post-title {
+	text-align: center;
+}
+
+.post-wrap .post .post-meta {
+margin: 15px 0 15px 0;
+text-align: center;
+}
+
+#intro{
+	margin-bottom:0;
+}
+
+div.col-md-8{
+	margin-top: 2rem;
+}
+
+body[data-uppercase="true"] #intro .intro-text h1 {
+text-transform: capitalize;
+font-size: 32px;
+}
+
+.page-info-section .share {
+  float: none;
+}
+
+div.dad{
+	display: initial;
+}
+
+div.widget.about-me{
+	  /*max-width: 72%;*/
+  margin-left: 2rem;
+  margin-right: 2rem;
+    margin-top: 5rem;
+}
+
+.widget.about-me .widget-content .flip-container .flip .front .avatar img {
+  max-width: 90%;
+}
+
+.widget.about-me .widget-content .flip-container .flip .front .info {
+padding: 10px 5px;
+text-align: center;
+}
+
+/*.widget.about-me .widget-content .flip-container .flip .front .info .name {
+margin: 0;
+font-size: 18px;
+}*/
+
+div.bio {
+padding: 1rem;
+font-size: 16px;
+line-height: 20px;
+}
+
+.widget.about-me .widget-content .flip-container .flip .flip-back {
+color: #FFF;
+margin-top: 10px;
+}
+
+h3.name{
+	font-size: 15px;
+}
+
+div.flip.clearfix {
+height: 305px !important;
+}
+
+.widget.about-me .widget-content .flip-container .flip .front .avatar img {
+border-radius: 50%;
+width: 172px;
+}
+
+.widget {
+padding: 10px 10px 30px 10px;
+}
+
+.widget.about-me .widget-content .flip-container .flip .back .content .title {
+margin: 10px 0;
+font-size: 15px;
+line-height: 18px;
+color: #FFF;
+}
+
+div.bio p {
+	margin-top:0;
+}
+
 }
