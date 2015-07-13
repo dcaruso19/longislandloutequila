@@ -28,10 +28,10 @@ li a:hover {
 	text-decoration: none;
 	color: #aaf;
 	text-shadow: none;
-	-webkit-transition: 500ms linear 0s;
-	-moz-transition: 500ms linear 0s;
-	-o-transition: 500ms linear 0s;
-	transition: 500ms linear 0s;
+	-webkit-transition: 300ms linear 0s;
+	-moz-transition: 300ms linear 0s;
+	-o-transition: 300ms linear 0s;
+	transition: 300ms linear 0s;
 	outline: 0 none;
 	color: #fff;
 	text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
@@ -224,10 +224,30 @@ text-align: center;
   margin-bottom: 30px;
 }
 
+/*FOR SMALL INFO SECTION*/
+/*.page-info-section {
+background-color: #DCAA89;
+color: #FFF;
+padding: 10px 0;
+overflow: visible;
+margin-bottom: 0;
+max-width: 1140px;
+margin-left: auto;
+margin-right: auto;
+margin-top: -10rem;
+margin-bottom: 2rem;
+}*/
+
+
+/*FOR SMALL INFO SECTION*/
+.page-info-section .share {
+min-width: 176px;
+}
+
 .page-info-section .share {
   float: right;
   margin-top: 10px;
-  min-width: 0;
+ /* min-width: 0;*/
 }
 
 .widget .flickr-feed li a:after, .widget .instagram-feed li a:after, .widget .dribbble-feed li a:after {
@@ -241,6 +261,61 @@ text-align: center;
 div.dad{
 	display: none;
 }
+
+
+/*THIS IS FOR SMALLER BACKGROUND IMAGE */
+section#intro.covered{
+	background-image: url(/content/images/2015/07/IMG_654354982722.jpeg);
+max-width: 1140px;
+margin-left: auto;
+margin-right: auto;
+box-shadow: 5px 5px 5px #888;
+}
+
+
+/*div#author-info.post.tag-2015.tag-glassware.tag-learned.formatted {
+	box-shadow: 2px 3px 1px #888;
+}*/
+
+.widget.social-widget .social {
+text-align: center;
+margin-bottom: 0;
+}
+
+
+#intro.covered:before {
+	background: none;
+}
+
+section#intro.covered{
+background-image: url(/content/images/2015/07/IMG_654354982722.jpeg);
+bottom: 7rem;
+margin-bottom: -4rem;
+}
+
+/*THIS IS FOR SMALLER NAVBAR */
+/*nav.navbar.navbar-custom.style3{
+max-width: 1140px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10rem;
+}*/
+
+/*div.footer-mobile{
+	display: none;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (min-width:480px) and (max-width:768px) {
@@ -336,7 +411,58 @@ margin-left: 6rem;
 margin-right: 6rem;
 }
 
+/*THIS IS FOR SMALLER BACKGROUND IMAGE */
+section#intro.covered{
+background-image: url(/content/images/2015/07/IMG_654354982722.jpeg);
+width: inherit;
+margin-left: auto;
+margin-right: auto;
+box-shadow: none;
 }
+
+section#intro.covered{
+background-image: url(/content/images/2015/07/IMG_654354982722.jpeg);
+bottom: 3rem;
+margin-bottom: -3rem;
+padding-bottom: 17rem;
+}
+
+div.widget.about-me {
+margin-top: 5rem;
+max-width: 32rem;
+margin-left: auto;
+margin-right: auto;
+}
+/*
+div.footer-mobile{
+	display: none;
+}*/
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -428,7 +554,7 @@ text-align: center;
 }
 
 div.col-md-8{
-	margin-top: 2rem;
+	margin-top: 0rem;
 }
 
 body[data-uppercase="true"] #intro .intro-text h1 {
@@ -491,6 +617,7 @@ width: 172px;
 
 .widget {
 padding: 10px 10px 30px 10px;
+text-align: center;
 }
 
 .widget.about-me .widget-content .flip-container .flip .back .content .title {
@@ -504,4 +631,54 @@ div.bio p {
 	margin-top:0;
 }
 
+/*THIS IS FOR SMALLER BACKGROUND IMAGE */
+section#intro.covered{
+background-image: url(/content/images/2015/07/IMG_654354982722.jpeg);
+width: inherit;
+margin-left: auto;
+margin-right: auto;
+box-shadow: none;
 }
+
+section#intro.covered{
+background-image: url(/content/images/2015/07/IMG_654354982722.jpeg);
+bottom: 0;
+margin-bottom: 0;
+bottom: 5rem;
+margin-bottom: -3rem;
+top: -3rem;
+}
+
+div.widget.about-me {
+margin-top: 5rem;
+max-width: 30rem;
+margin-left: auto;
+margin-right: auto;
+}
+
+/*FOR SMALL FIXED WIDTH MOBILE*/
+/*section#intro.covered{
+background-image: url(/content/images/2015/07/IMG_654354982722.jpeg);
+padding-bottom: 2rem;
+padding-top: 7rem;
+max-width: 30rem;*/
+}
+
+/*.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 8px;
+  padding-left: 8px;
+}*/
+
+/*SKINNY WALLPAPER MOBILE*/
+/*#intro.covered {
+  padding-top: 30px;
+  padding-bottom: 70px;
+}*/
+
+
+
+
+}
+
