@@ -34,7 +34,7 @@ li a:hover {
 	transition: 300ms linear 0s;
 	outline: 0 none;
 	color: #fff;
-	text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
+	text-shadow: 0px 0px 2px #ffc, 1px 0px 10px #fff;
 }
 
 
@@ -269,8 +269,15 @@ section#intro.covered{
 max-width: 1140px;
 margin-left: auto;
 margin-right: auto;
-box-shadow: 5px 5px 5px #888;
+box-shadow: 3px 3px 3px #888;
 }
+
+/*THIS IS FOR FIXED BOX SHADOW BACKGROUND IMAGE */
+/*section#intro.covered{
+  background-image: url(/content/images/2015/07/IMG_654354982722.jpeg);
+  background-position: 0px -140px;
+  height: 60px;
+}*/
 
 
 /*div#author-info.post.tag-2015.tag-glassware.tag-learned.formatted {
@@ -287,11 +294,11 @@ margin-bottom: 0;
 	background: none;
 }
 
-section#intro.covered{
+/*section#intro.covered{
 background-image: url(/content/images/2015/07/IMG_654354982722.jpeg);
 bottom: 7rem;
 margin-bottom: -4rem;
-}
+}*/
 
 /*THIS IS FOR SMALLER NAVBAR */
 /*nav.navbar.navbar-custom.style3{
@@ -305,6 +312,200 @@ margin-bottom: 10rem;
 	display: none;
 }
 */
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  color: #3A4145;
+  font-size: 14px;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(220, 170, 137, 0.28);
+}
+
+/*#intro.covered {
+	padding:180px 0;
+}*/
+
+
+/*#intro.covered {
+padding: 180px;
+}*/
+
+#intro.covered {
+background-size: 100%;
+background-position: center right;
+-moz-background-size: inherit;
+-webkit-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+/*padding: 210px 0;*/
+}
+
+/*#intro.covered {
+padding: 100px 0;
+}*/
+
+/*h1.tag.name{
+	position:absolute;
+    top:250px;
+    left:140px;
+    width:500px;
+    height:50px;
+    background-color:black;
+    z-index:0;
+    opacity:0.5;
+}*/
+
+div.intro-text h1 {
+background-color: rgba(0, 0, 0, 0.5);
+padding: 1px;
+opacity: 50%;
+max-width: 80%;
+margin-left: auto;
+margin-right: auto;
+color: #5AC5A0;
+}
+
+
+ul.social li a {
+  width: 30px;
+}
+
+.tequila.net {
+padding-left: 10px !important;
+padding-right: 10px !important;
+text-align: center !important;
+}
+
+img.alignnone {
+width:100%;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+div.widget.casa-noble img {
+    width:100%;
+}
+
+div.widget.casa-noble {
+width: 80%;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+div.widget.g4 img {
+    width:100%;
+}
+
+div.widget.g4 {
+width: 80%;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+div.widget.fortaleza img {
+    width: 100%;
+}
+
+div.widget.fortaleza {
+width: 80%;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+div.widget.t1 img {
+    width:100%;
+}
+
+div.widget.t1 {
+width: 80%;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+div.widget.el-tesoro img {
+    width:100%;
+}
+
+div.widget.el-tesoro {
+width: 80%;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+div.widget.tequila-match img {
+    width:100%;
+}
+
+div.widget.mr-latino {
+/*width: 80%;*/
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+div.widget.mr-latino img {
+width: 100%;
+}
+
+div.widget.villa-lobos {
+width: 80%;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+div.widget.villa-lobos img {
+width: 100%;
+}
+
+div.widget.tequila-ocho img {
+width: 100%;
+}
+
+div.widget.tequila-ocho {
+width: 80%;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+div.widget.siete-leguas img {
+width: 100%;
+}
+
+div.widget.siete-leguas {
+width: 60%;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+nav.navbar.navbar-custom.style3{
+box-shadow: 0 9px 3px -8px rgb(124, 124, 124);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -420,12 +621,12 @@ margin-right: auto;
 box-shadow: none;
 }
 
-section#intro.covered{
+/*section#intro.covered{
 background-image: url(/content/images/2015/07/IMG_654354982722.jpeg);
 bottom: 3rem;
 margin-bottom: -3rem;
 padding-bottom: 17rem;
-}
+}*/
 
 div.widget.about-me {
 margin-top: 5rem;
@@ -438,6 +639,19 @@ div.footer-mobile{
 	display: none;
 }*/
 
+section#intro.covered{
+  background-image: url(/content/images/2015/07/IMG_654354982722.jpeg);
+  background-position: initial;
+  height: 60px;
+}
+
+div.widget.casa-noble {
+width: 50%;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
 
 
 }
@@ -466,7 +680,7 @@ div.footer-mobile{
 
 
 
-@media (max-width:480px) {
+@media (max-width:479px) {
 
 .container {
 padding-right: 20px;
@@ -640,7 +854,7 @@ margin-right: auto;
 box-shadow: none;
 }
 
-section#intro.covered{
+/*section#intro.covered{
 background-image: url(/content/images/2015/07/IMG_654354982722.jpeg);
 bottom: 0;
 margin-bottom: 0;
@@ -648,7 +862,7 @@ bottom: 5rem;
 margin-bottom: -3rem;
 top: -3rem;
 }
-
+*/
 div.widget.about-me {
 margin-top: 5rem;
 max-width: 30rem;
@@ -662,7 +876,7 @@ background-image: url(/content/images/2015/07/IMG_654354982722.jpeg);
 padding-bottom: 2rem;
 padding-top: 7rem;
 max-width: 30rem;*/
-}
+
 
 /*.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
   position: relative;
@@ -677,8 +891,29 @@ max-width: 30rem;*/
   padding-bottom: 70px;
 }*/
 
+section#intro.covered{
+  background-image: url(/content/images/2015/07/IMG_654354982722.jpeg);
+/*  background-position: initial;*/
+  height: 60px;
+}
 
+div#isotope-content.post-list.isotope{
+	margin-top: 2rem;
+}
 
+/*div.widget.casa-noble img {
+  max-width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.widget.casa-noble {
+  max-width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}*/
 
 }
 
