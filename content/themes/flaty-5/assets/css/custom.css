@@ -21,7 +21,8 @@ div.widget-about-me{
 }
 
 .widget.about-me .widget-content .flip-container .flip .front .avatar img {
-	width:235px;
+/*	width:235px;*/
+	width:86%;
 }
 
 li a:hover {	
@@ -66,9 +67,11 @@ a.navbar-brand.logo-img img {
 }*/
 
 div.bio{
-	padding: 2rem;
-  	font-size: 17px;
+/*	padding: 2rem;
+  	font-size: 17px;*/
   	line-height: 1.55;
+  	padding: 1.5rem;
+  	font-size: 15px;
   	}
 
 .widget .widget-content p {
@@ -359,13 +362,14 @@ padding: 100px 0;
 }*/
 
 div.intro-text h1 {
-background-color: rgba(0, 0, 0, 0.5);
+/*background-color: rgba(0, 0, 0, 0.5);*/
 padding: 1px;
 opacity: 50%;
 max-width: 80%;
 margin-left: auto;
 margin-right: auto;
 color: #5AC5A0;
+text-shadow: 4px 4px #000;
 }
 
 
@@ -384,6 +388,12 @@ width:100%;
 margin-left: auto;
 margin-right: auto;
 display: block;
+height: 100%;
+}
+
+img.zee {
+	height: 100px;
+	width: 100%;
 }
 
 div.widget.casa-noble img {
@@ -391,7 +401,7 @@ div.widget.casa-noble img {
 }
 
 div.widget.casa-noble {
-width: 80%;
+/*width: 80%;*/
 text-align: center;
 margin-left: auto;
 margin-right: auto;
@@ -402,7 +412,7 @@ div.widget.g4 img {
 }
 
 div.widget.g4 {
-width: 80%;
+/*width: 80%;*/
 text-align: center;
 margin-left: auto;
 margin-right: auto;
@@ -413,7 +423,7 @@ div.widget.fortaleza img {
 }
 
 div.widget.fortaleza {
-width: 80%;
+/*width: 80%;*/
 text-align: center;
 margin-left: auto;
 margin-right: auto;
@@ -424,7 +434,7 @@ div.widget.t1 img {
 }
 
 div.widget.t1 {
-width: 80%;
+/*width: 80%;*/
 text-align: center;
 margin-left: auto;
 margin-right: auto;
@@ -435,7 +445,7 @@ div.widget.el-tesoro img {
 }
 
 div.widget.el-tesoro {
-width: 80%;
+/*width: 80%;*/
 text-align: center;
 margin-left: auto;
 margin-right: auto;
@@ -457,7 +467,7 @@ width: 100%;
 }
 
 div.widget.villa-lobos {
-width: 80%;
+/*width: 80%;*/
 text-align: center;
 margin-left: auto;
 margin-right: auto;
@@ -472,7 +482,7 @@ width: 100%;
 }
 
 div.widget.tequila-ocho {
-width: 80%;
+/*width: 80%;*/
 text-align: center;
 margin-left: auto;
 margin-right: auto;
@@ -491,9 +501,251 @@ margin-right: auto;
 }
 
 nav.navbar.navbar-custom.style3{
-box-shadow: 0 9px 3px -8px rgb(124, 124, 124);
+box-shadow: 0 1px 3px 0px rgb(124, 124, 124);
 }
 
+.recent-tweets {
+/*padding-left: 10px;
+padding-right: 10px;*/
+}
+
+.widget.facebook {
+/*padding-left: 10px;
+padding-right: 10px;*/
+border-bottom: solid 1px;
+padding-left: 0;
+padding-right: 0;
+}
+
+.search-widget {
+	  border-bottom: solid 1px;
+	  margin-bottom: 12px;
+}
+
+.widget.about-me {
+	  border-bottom: solid 1px;	
+	  padding-left: 0;
+	  padding-right: 0;
+	  padding-top: 24px;
+}
+
+.widget.recent-tweets {
+	border-bottom: solid 1px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.widget.instagram {
+	border-bottom: solid 1px;
+}
+
+.widget.tequila.net {
+	border-bottom: solid 1px;
+}
+
+.widget.tequila-match {
+	border-bottom: solid 1px;
+}
+
+.widget.zee-tequila {
+	border-bottom: solid 1px;
+	padding-left: 2px;
+padding-right: 2px;
+padding-top: 14px;
+}
+
+.widget.mr-latino {
+	border-bottom: solid 1px;
+}
+
+.widget.fortaleza {
+	border-bottom: solid 1px;
+}
+
+div.widget.casa-noble {
+	border-bottom: solid 1px;
+}
+
+div.widget.g4 {
+	border-bottom: solid 1px;
+}
+
+div.widget.t1 {
+	border-bottom: solid 1px;
+}
+
+div.widget.el-tesoro {
+	border-bottom: solid 1px;
+}
+
+
+div.col-md-3 {
+	background: white;
+/*	padding-left: 4px;
+	padding-right: 4px;*/
+}
+
+/*div.col-md-9{
+padding-left: 0;
+}*/
+
+.widget {
+	box-shadow: none;
+}
+
+
+.widget .widget-title:before {
+	display: none;
+}
+
+div.col-md-4.widget{
+padding-top: 8px;
+}
+
+div.col-md-4.widget a.navbar-brand.logo-img {
+	padding:0;
+}
+
+.widget {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+footer.site-footer.multi-cols{
+  margin-top: 6rem;
+}
+
+h2.buy.it.here {
+font-size: 24px;
+text-align: center;
+color:#5AC5A0;
+text-shadow: 1px 1px black;
+}
+
+/*h3.here {
+font-size: 24px;
+text-align: center;
+color:#5AC5A0;
+text-shadow: 1px 1px black;
+}*/
+
+
+div.widget.tag-logo{
+height: 286px;
+padding: 0;
+}
+
+.youtube {
+background-color: #b31217;
+border-color: #b31217;
+margin-right: 3px;
+
+}
+
+.youtube img{
+	margin-bottom: 8px;
+	width: 32px;
+}
+
+li.youtube{
+	border: none !important;
+}
+
+
+section#intro.covered {
+	padding: 284px 0;
+}
+
+
+section#intro.covered {
+max-width: 1154px;
+margin-left: auto;
+margin-right: auto;
+box-shadow: 3px 3px 3px #888;
+left: 6px;
+}
+
+
+.youtube-player{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+.responsive-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
+.responsive-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+h3.links {
+    margin-top: 4rem;
+    position: relative;
+    line-height: 24px;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h3.ads {
+	margin-top: 4rem;
+    position: relative;
+    line-height: 24px;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+
+div.youtube-player {
+	border-bottom: solid 1px;
+}
+
+div.widget.tn {
+		border-bottom: solid 1px;
+}
+
+.main-nav>li>a {
+	font-size:19.5px;
+}
+
+
+
+
+
+
+
+
+@media (min-width:769px) and (max-width:991px) {
+
+
+div.col-md-3.sidebar.right-sidebar{
+max-width: 42%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.widget.about-me .widget-content .flip-container .flip .front .avatar img {
+width: 66%;
+margin-top: 2rem;
+}
+
+.container {
+padding-right: 55px;
+padding-left: 55px;
+margin-right: auto;
+margin-left: auto;
+}
+
+div.col-md-3{
+	max-width: 56%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+}
 
 
 
@@ -633,6 +885,12 @@ margin-top: 5rem;
 max-width: 32rem;
 margin-left: auto;
 margin-right: auto;
+
+height: 50rem;
+margin-top: 5rem;
+max-width: 40rem;
+margin-left: auto;
+margin-right: auto;
 }
 /*
 div.footer-mobile{
@@ -648,6 +906,28 @@ section#intro.covered{
 div.widget.casa-noble {
 width: 50%;
 text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+div.col-md-3.sidebar.right-sidebar{
+max-width: 60%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.widget.about-me .widget-content .flip-container .flip .front .avatar img {
+width: 66%;
+margin-top: 2rem;
+}
+
+div.col-md-9{
+padding-left: 2px;
+padding-right: 2px;
+}
+
+div.col-md-3{
+max-width: 70%;
 margin-left: auto;
 margin-right: auto;
 }
@@ -683,8 +963,8 @@ margin-right: auto;
 @media (max-width:479px) {
 
 .container {
-padding-right: 20px;
-padding-left: 20px;
+padding-right: 30px;
+padding-left: 30px;
 margin-right: auto;
 margin-left: auto;
 }
@@ -788,7 +1068,7 @@ div.widget.about-me{
 	  /*max-width: 72%;*/
   margin-left: 2rem;
   margin-right: 2rem;
-    margin-top: 5rem;
+    margin-top: 0rem;
 }
 
 .widget.about-me .widget-content .flip-container .flip .front .avatar img {
@@ -864,7 +1144,7 @@ top: -3rem;
 }
 */
 div.widget.about-me {
-margin-top: 5rem;
+margin-top: 0rem;
 max-width: 30rem;
 margin-left: auto;
 margin-right: auto;
@@ -914,6 +1194,25 @@ div.widget.casa-noble {
   margin-left: auto;
   margin-right: auto;
 }*/
+
+div.col-md-9{
+padding-left: 2px;
+padding-right: 2px;
+}
+
+.widget.about-me .widget-content .flip-container .flip .front .avatar img {
+margin-top: 2rem;
+}
+
+div.widget.about-me {
+margin-top: 2rem;
+max-width: 32rem;
+margin-left: auto;
+margin-right: auto;
+
+height: 36rem;
+
+}
 
 }
 

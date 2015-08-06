@@ -12,7 +12,7 @@
 <main class="body-content page-detail" role="main">
 	<div class="container">
         <div class="row">
-            <div class="{{^has tag="_full_width,_left_sidebar,_both_sidebar"}}col-md-8 right-sidebar{{else}}{{#has tag="_both_sidebar"}}col-md-6 col-md-push-3 both-sidebar{{else}}{{#has tag="_left_sidebar"}}col-md-8 col-md-push-4 left-sidebar{{else}}col-md-12 full-width{{/has}}{{/has}}{{/has}}">
+            <div class="{{^has tag="_full_width,_left_sidebar,_both_sidebar"}}col-md-9 right-sidebar{{else}}{{#has tag="_both_sidebar"}}col-md-6 col-md-push-3 both-sidebar{{else}}{{#has tag="_left_sidebar"}}col-md-8 col-md-push-4 left-sidebar{{else}}col-md-12 full-width{{/has}}{{/has}}{{/has}}">
             	<div class="post-wrap">
             		<article class="{{post_class}}" id="author-info" {{#if author}} {{#if author.image}}data-author-image="{{author.image}}"{{/if}} data-author-name="{{author.name}}" data-author-bio="{{author.bio}}"{{/if}}>
                         {{! Everything below outputs content of the the post which has been published }}
@@ -68,7 +68,7 @@
             	</div>
             </div>
             {{^has tag="_full_width,_left_sidebar,_both_sidebar"}}              
-            <div class="col-md-4 sidebar right-sidebar">
+            <div class="col-md-3 sidebar right-sidebar">
                 {{>sidebar/default}} 
             </div>
             {{else}}
