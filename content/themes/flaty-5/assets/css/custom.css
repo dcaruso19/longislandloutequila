@@ -72,7 +72,21 @@ div.bio{
   	line-height: 1.55;
   	padding: 1.5rem;
   	font-size: 15px;
-  	}
+  	padding-bottom: 0;
+}
+
+.widget.about-me .widget-content .flip-container .flip .back .content .title {
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 18px;
+    color: #fff;
+    margin-top: 0;
+}
+
+.widget.about-me .widget-content .flip-container .flip .flip-back {
+    color: #fff;
+    margin-top: 10px;
+}
 
 .widget .widget-content p {
   text-align: initial;
@@ -118,7 +132,7 @@ div.post-photo{
 
 div.large div.post-photo {
 	max-width: 26rem;
-	max-height: 38rem;
+	max-height: 58rem;
 }
 
 .widget .sf-search-widget .form-group .search-keyword-widget:focus {
@@ -460,6 +474,8 @@ div.widget.mr-latino {
 text-align: center;
 margin-left: auto;
 margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 div.widget.mr-latino img {
@@ -526,7 +542,7 @@ padding-right: 0;
 	  border-bottom: solid 1px;	
 	  padding-left: 0;
 	  padding-right: 0;
-	  padding-top: 24px;
+	  padding-top: 10px;
 }
 
 .widget.recent-tweets {
@@ -537,6 +553,8 @@ padding-right: 0;
 
 .widget.instagram {
 	border-bottom: solid 1px;
+	    padding-left: 0;
+    padding-right: 0;
 }
 
 .widget.tequila.net {
@@ -545,6 +563,8 @@ padding-right: 0;
 
 .widget.tequila-match {
 	border-bottom: solid 1px;
+	    padding-left: 0;
+    padding-right: 0;
 }
 
 .widget.zee-tequila {
@@ -703,11 +723,52 @@ div.youtube-player {
 
 div.widget.tn {
 		border-bottom: solid 1px;
+		    padding-left: 0;
+    padding-right: 0;
 }
 
 .main-nav>li>a {
 	font-size:19.5px;
 }
+
+div.widget.search-widget{
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.nav>li {
+	border-right: 1px solid #fff;
+}
+
+.nav>li:last-child {
+	border-right: none;
+}
+
+
+/*div.widget.logo-widget{
+	padding-top: 0;
+}*/
+
+img.square-logo {    
+	max-width: 100%;
+}
+
+div.lou-agave{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #DC7075;
+    font-weight: bold;
+    text-shadow: .8px .8px black;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -727,7 +788,7 @@ margin-right: auto;
 
 .widget.about-me .widget-content .flip-container .flip .front .avatar img {
 width: 66%;
-margin-top: 2rem;
+/*margin-top: 2rem;*/
 }
 
 .container {
@@ -742,6 +803,21 @@ div.col-md-3{
 	margin-right: auto;
 	margin-left: auto;
 }
+
+
+
+img.square-logo {    
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.widget.about-me .widget-content .flip-container .flip .front .info {
+    padding: 20px 30px;
+    text-align: center;
+}
+
 
 
 
@@ -904,7 +980,7 @@ section#intro.covered{
 }
 
 div.widget.casa-noble {
-width: 50%;
+/*width: 50%;*/
 text-align: center;
 margin-left: auto;
 margin-right: auto;
@@ -917,8 +993,12 @@ margin-right: auto;
 }
 
 .widget.about-me .widget-content .flip-container .flip .front .avatar img {
-width: 66%;
-margin-top: 2rem;
+width: 54%;
+/*margin-top: 2rem;*/
+}
+
+.widget.about-me {
+	border-bottom: none;
 }
 
 div.col-md-9{
@@ -927,12 +1007,37 @@ padding-right: 2px;
 }
 
 div.col-md-3{
-max-width: 70%;
+max-width: 85%;
 margin-left: auto;
 margin-right: auto;
 }
 
+img.square-logo {    
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 
+div.shrink-ads{
+    width: 72%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.widget.about-me .widget-content .flip-container .flip .front .info {
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.widget.about-me {
+	  border-bottom: 0px;
+}
+
+div.col-md-3 div.widget.about-me{
+	display: none;
+}
 
 }
 
@@ -1097,7 +1202,7 @@ margin-top: 10px;
 }
 
 h3.name{
-	font-size: 15px;
+	font-size: 20px;
 }
 
 div.flip.clearfix {
@@ -1106,7 +1211,7 @@ height: 305px !important;
 
 .widget.about-me .widget-content .flip-container .flip .front .avatar img {
 border-radius: 50%;
-width: 172px;
+width: 150px;
 }
 
 .widget {
@@ -1115,11 +1220,16 @@ text-align: center;
 }
 
 .widget.about-me .widget-content .flip-container .flip .back .content .title {
-margin: 10px 0;
+/*margin: 10px 0;*/
 font-size: 15px;
 line-height: 18px;
 color: #FFF;
 }
+
+.widget.about-me .widget-content .flip-container .flip .back .content {
+	padding:0;
+}
+
 
 div.bio p {
 	margin-top:0;
@@ -1200,8 +1310,14 @@ padding-left: 2px;
 padding-right: 2px;
 }
 
+div.col-md-3{
+max-width: 85%;
+margin-left: auto;
+margin-right: auto;
+}
+
 .widget.about-me .widget-content .flip-container .flip .front .avatar img {
-margin-top: 2rem;
+/*margin-top: 2rem;*/
 }
 
 div.widget.about-me {
@@ -1209,10 +1325,48 @@ margin-top: 2rem;
 max-width: 32rem;
 margin-left: auto;
 margin-right: auto;
-
 height: 36rem;
 
 }
+
+img.square-logo {    
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.widget.about-me .widget-content .flip-container .flip .back {
+    background: #5AC5A0;
+    color: #fff;
+    /* min-height: 38rem; */
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+div.shrink-ads{
+    width: 72%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.widget.about-me {
+	  border-bottom: 0px;
+}
+
+div.col-md-3 div.widget.about-me{
+	display: none;
+}
+
+
+
+
+
+
+
+
 
 }
 
