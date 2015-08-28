@@ -683,6 +683,7 @@ margin-left: auto;
 margin-right: auto;
 box-shadow: 3px 3px 3px #888;
 left: 6px;
+padding-bottom: 320px;
 }
 
 
@@ -755,7 +756,7 @@ img.square-logo {
 
 div.lou-agave{
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 10px;
     color: #DC7075;
     font-weight: bold;
@@ -817,6 +818,15 @@ img.square-logo {
     padding: 20px 30px;
     text-align: center;
 }
+
+section#intro.covered{
+background-image: url(/content/images/2015/08/bg-new.jpg);
+background-size: cover;
+background-position: center bottom;
+left:0;
+padding: 130px;
+}
+
 
 
 
@@ -1039,6 +1049,18 @@ div.col-md-3 div.widget.about-me{
 	display: none;
 }
 
+div.lou-agave {
+    font-size: 18px;
+}
+
+section#intro.covered{
+background-image: url(/content/images/2015/08/bg-new.jpg);
+background-size: cover;
+background-position: center bottom;
+left:0;
+padding: 130px;
+}
+
 }
 
 
@@ -1066,6 +1088,13 @@ div.col-md-3 div.widget.about-me{
 
 
 @media (max-width:479px) {
+
+div.logo-area div.container {
+padding-right: 30px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+}
 
 .container {
 padding-right: 30px;
@@ -1282,9 +1311,11 @@ max-width: 30rem;*/
 }*/
 
 section#intro.covered{
-  background-image: url(/content/images/2015/07/IMG_654354982722.jpeg);
-/*  background-position: initial;*/
-  height: 60px;
+background-image: url(/content/images/2015/08/bg-new.jpg);
+background-size: cover;
+background-position: center bottom;
+left:0;
+padding: 70px;
 }
 
 div#isotope-content.post-list.isotope{
@@ -1360,7 +1391,14 @@ div.col-md-3 div.widget.about-me{
 	display: none;
 }
 
+div.lou-agave {
+    font-size: 16px;
+}
 
+a.navbar-brand.logo-img img {
+    max-width: 105%;
+    max-height: 100%;
+}
 
 
 
