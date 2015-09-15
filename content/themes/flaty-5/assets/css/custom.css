@@ -763,8 +763,31 @@ div.lou-agave{
     text-shadow: .8px .8px black;
 }
 
+@media (min-width:992px) and (max-width:1199px) {
+
+div.social-top{display: none;}
+
+section#intro.covered {
+    max-width: 1154px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 3px 3px #888;
+    left: 6px;
+    /* padding-bottom: 190px; */
+    max-width: 970px;
+}
+
+#intro.covered{
+	background-size:contain;
+/*	padding:0 !important;*/
+    padding-bottom: 220px !important;
+
+}
 
 
+
+
+}
 
 
 
@@ -792,11 +815,15 @@ width: 66%;
 /*margin-top: 2rem;*/
 }
 
-.container {
-padding-right: 55px;
-padding-left: 55px;
+div.logo-area .container {
+padding: 0;
 margin-right: auto;
 margin-left: auto;
+}
+
+div.menu-area .container{
+	padding-left: 70px;
+	padding-right: 50px;
 }
 
 div.col-md-3{
@@ -827,7 +854,17 @@ left:0;
 padding: 130px;
 }
 
+.main-nav>li>a {
+    font-size: 13.5px;
+    padding: 8px;
+}
 
+.nav>li {
+	border-right: none;
+}
+
+
+ul.nav.main-nav.collapse.navbar-collapse li a {padding: 0; margin-right: 8px;}
 
 
 
@@ -1060,6 +1097,17 @@ background-position: center bottom;
 left:0;
 padding: 130px;
 }
+
+.main-nav>li>a {
+    font-size: 13.5px;
+    padding: 8px;
+}
+
+
+.nav>li {
+	border-right: none;
+}
+
 
 }
 
@@ -1315,7 +1363,12 @@ background-image: url(/content/images/2015/08/bg-new.jpg);
 background-size: cover;
 background-position: center bottom;
 left:0;
-padding: 70px;
+/*padding: 70px;*/
+min-height: 200px;
+min-width: 70px;
+max-width: 1140px;
+padding:0;
+
 }
 
 div#isotope-content.post-list.isotope{
@@ -1400,7 +1453,15 @@ a.navbar-brand.logo-img img {
     max-height: 100%;
 }
 
+.main-nav>li>a {
+    font-size: 13.5px;
+    padding: 8px;
+}
 
+
+.nav>li {
+	border-right: none;
+}
 
 
 

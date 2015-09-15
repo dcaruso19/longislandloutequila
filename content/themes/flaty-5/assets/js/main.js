@@ -449,39 +449,15 @@ var sfApp={
                     $(this).html( htmlStr );
                 }
             });
-        }   
+        }  
+
+
+
         if($('.search-keyword-widget').length){
             $('.search-keyword-widget').keypress(function(event) { 
                 var $this = $(this);                                    
                 if (event.which == 13) {
-                    var $sf_search_widget = $(this).closest('.sf-search-widget');
-                    if( $sf_search_widget.length ){
-                        var $result_container = $( '.search-result-widget-wrap .search-result-widget-inner .search-result-widget', $sf_search_widget );
-                        if( $result_container ){
-                            if( $this.val() !='' && $this.val().length>=3 ){                             
-                                $result_container.html('<li class="loading-text">Searching ...</li>');
-                                $result_container.addClass('searching');
-                                var $search_result_wrap = $result_container.closest('.search-result-widget-wrap');
-                                if( $search_result_wrap.length ){
-                                    $search_result_wrap.addClass('scroll');
-                                }                                   
-                                sfApp.search( $this.val(), $result_container );                                                    
-                            }
-                            else{
-                                $result_container.html('<li class="loading-text">Please enter at least 3 characters!</li>');
-                                $result_container.addClass('searching');
-                            }
-                            var $form_group = $this.closest('.form-group');
-                            if( $form_group.length ){
-                                var $icon = $('.sf-widget-search-icon', $form_group);   
-                                if( $icon.length ){
-                                    $( '.fa', $icon ).removeClass('fa-search');
-                                    $( '.fa', $icon ).addClass('fa-times');
-                                    $icon.addClass('searched');
-                                }
-                            }
-                        }
-                    }
+                    doSearch($this);
                 }
             });             
         }      
@@ -503,7 +479,10 @@ var sfApp={
                         $result_container.removeClass('searching');                         
                     }
                 }
-            }               
+            }else{
+                doSearch($('.search-keyword-widget'));
+            }
+
         }); 
         $('.banner-search-icon').click(function(){
             var $this = $(this); 
@@ -876,3 +855,38 @@ $(window).bind('resizeEnd', function() {
     "use strict";    
     sfApp.refreshUI();
 });
+
+
+/// custom
+
+
+function doSearch (widget) {
+    var $sf_search_widget = $(widget).closest('.sf-search-widget');
+    if( $sf_search_widget.length ){
+        var $result_container = $( '.search-result-widget-wrap .search-result-widget-inner .search-result-widget', $sf_search_widget );
+        if( $result_container ){
+            if( $this.val() !='' && $this.val().length>=3 ){                             
+                $result_container.html('<li class="loading-text">Searching ...</li>');
+                $result_container.addClass('searching');
+                var $search_result_wrap = $result_container.closest('.search-result-widget-wrap');
+                if( $search_result_wrap.length ){
+                    $search_result_wrap.addClass('scroll');
+                }                                   
+                sfApp.search( $this.val(), $result_container );                                                    
+            }
+            else{
+                $result_container.html('<li class="loading-text">Please enter at least 3 characters!</li>');
+                $result_container.addClass('searching');
+            }
+            var $form_group = $this.closest('.form-group');
+            if( $form_group.length ){
+                var $icon = $('.sf-widget-search-icon', $form_group);   
+                if( $icon.length ){
+                    $( '.fa', $icon ).removeClass('fa-search');
+                    $( '.fa', $icon ).addClass('fa-times');
+                    $icon.addClass('searched');
+                }
+            }
+        }
+    }
+}
