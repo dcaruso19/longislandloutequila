@@ -793,6 +793,12 @@ section#intro.covered {
 }
 
 
+div.google-ad {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-bottom:10px;
+    padding-top:10px;
+}
 
 
 }
@@ -881,6 +887,13 @@ height: 410px;
 
 ul.nav.main-nav.collapse.navbar-collapse li a {padding: 0; margin-right: 8px;}
 
+
+.google-ad {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-bottom:10px;
+    padding-top:10px;
+}
 
 
 }
@@ -1125,6 +1138,13 @@ height: 310px;
 	border-right: none;
 }
 
+
+.google-ad {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-bottom:10px;
+    padding-top:10px;
+}
 
 }
 
@@ -1481,8 +1501,12 @@ a.navbar-brand.logo-img img {
 	border-right: none;
 }
 
-
-
+.google-ad {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-bottom:10px;
+    padding-top:10px;
+}
 
 
 }
