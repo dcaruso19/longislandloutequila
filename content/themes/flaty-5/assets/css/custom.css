@@ -7,6 +7,14 @@ i.fa.fa-instagram{
 
 }
 
+img.dm {
+	    height: 117%;
+}
+
+li.dailymotion{
+	border: none !important;
+}
+
 li.instagram{
 	background: #517FA4;
 	border-color: #517FA4;
@@ -731,7 +739,7 @@ div.widget.tn {
 }
 
 .main-nav>li>a {
-	font-size:19.5px;
+	font-size:18.5px;
 }
 
 /*
