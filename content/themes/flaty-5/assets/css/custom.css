@@ -452,6 +452,17 @@ margin-left: auto;
 margin-right: auto;
 }
 
+div.widget.one-with-life {
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+border-bottom: solid 1px;
+}
+
+div.widget.one-with-life img {
+	width: 100%;
+}
+
 div.widget.t1 img {
     width:100%;
 }
