@@ -457,10 +457,23 @@ text-align: center;
 margin-left: auto;
 margin-right: auto;
 border-bottom: solid 1px;
+padding-left: 0px;
+padding-right: 0px;
 }
 
 div.widget.one-with-life img {
 	width: 100%;
+}
+
+div.widget.suerte {
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+border-bottom: solid 1px;
+}
+
+div.widget.suerte img {
+	width: 92%;
 }
 
 div.widget.t1 img {
@@ -485,6 +498,7 @@ margin-left: auto;
 margin-right: auto;
 padding-left: 2px;
 padding-right: 2px;
+border-bottom: solid 1px;
 }
 
 div.widget.siembra {
