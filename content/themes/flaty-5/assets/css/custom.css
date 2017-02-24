@@ -430,6 +430,20 @@ margin-left: auto;
 margin-right: auto;
 }
 
+div.widget.terralta img {
+    width:115%;
+    position:relative;
+    right:14px;
+}
+
+div.widget.terralta {
+/*width: 80%;*/
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+border-bottom: solid 1px;
+}
+
 div.widget.g4 img {
     width:100%;
 }
@@ -452,6 +466,45 @@ margin-left: auto;
 margin-right: auto;
 }
 
+div.widget.san-matias img {
+    width: 100%;
+}
+
+div.widget.san-matias {
+/*width: 80%;*/
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+padding-left: 0;
+padding-right: 0;
+border-bottom: solid 1px;
+}
+div.widget.matchmaker img {
+
+    width: 100%;
+}
+
+div.widget.matchmaker {
+/*width: 80%;*/
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+padding-left: 0;
+padding-right: 0;
+}
+
+div.widget.des-madre img {
+    width: 100%;
+}
+
+div.widget.des-madre {
+width: 80%;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+border-bottom: solid 1px;
+}
+
 div.widget.one-with-life {
 text-align: center;
 margin-left: auto;
@@ -470,10 +523,27 @@ text-align: center;
 margin-left: auto;
 margin-right: auto;
 border-bottom: solid 1px;
+padding-top: 0;
+padding-bottom: 0;
 }
 
 div.widget.suerte img {
 	width: 92%;
+}
+
+div.widget.grand-mayan {
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+border-bottom: solid 1px;
+padding-left: 0;
+padding-right: 0;
+padding-top: 4px;
+padding-bottom: 8px;
+}
+
+div.widget.grand-mayan img {
+	width: 60%;
 }
 
 div.widget.t1 img {
@@ -485,6 +555,22 @@ div.widget.t1 {
 text-align: center;
 margin-left: auto;
 margin-right: auto;
+}
+
+div.widget.calle23 img {
+width: 108%;
+text-align: center;
+position: relative;
+right: 10px;
+}
+
+div.widget.calle23 {
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+padding-left: 0;
+padding-right: 0;
+
 }
 
 div.widget.alquimia img {
@@ -540,26 +626,42 @@ div.widget.mr-latino img {
 width: 100%;
 }
 
-div.widget.villa-lobos {
+div.widget.arette {
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+border-bottom: solid 1px;
+padding-left:0;
+padding-right:0;
+padding-top: 0;
+padding-bottom: 12px;
+}
+
+div.arette img {
+width: 70%;
+}
+
+div.widget.oro-de-lidia {
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+border-bottom: solid 1px;
+}
+
+div.widget.oro-de-lidia img {
+width: 100%;
+}
+
+div.widget.ocho img {
+width: 100%;
+}
+
+div.widget.ocho {
 /*width: 80%;*/
 text-align: center;
 margin-left: auto;
 margin-right: auto;
-}
-
-div.widget.villa-lobos img {
-width: 100%;
-}
-
-div.widget.tequila-ocho img {
-width: 100%;
-}
-
-div.widget.tequila-ocho {
-/*width: 80%;*/
-text-align: center;
-margin-left: auto;
-margin-right: auto;
+border-bottom: solid 1px;
 }
 
 
@@ -652,8 +754,14 @@ div.widget.t1 {
 	border-bottom: solid 1px;
 }
 
+div.calle23{
+	border-bottom:solid 1px;
+}
+
 div.widget.el-tesoro {
 	border-bottom: solid 1px;
+	padding-left: 0px;
+	padding-right:0px;
 }
 
 
