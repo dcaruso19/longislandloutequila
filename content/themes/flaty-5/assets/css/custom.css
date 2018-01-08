@@ -444,6 +444,21 @@ margin-right: auto;
 border-bottom: solid 1px;
 }
 
+div.widget.maracame img {
+    width:100%;
+    position:relative;
+}
+
+div.widget.maracame {
+/*width: 80%;*/
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+padding-left: 0;
+padding-right: 0;
+border-bottom: solid 1px;
+}
+
 div.widget.g4 img {
     width:100%;
 }
@@ -516,6 +531,19 @@ padding-right: 0px;
 
 div.widget.one-with-life img {
 	width: 100%;
+}
+
+div.widget.gran {
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+border-bottom: solid 1px;
+padding-left: 0px;
+padding-right: 0px;
+}
+
+div.widget.gran img {
+    width: 100%;
 }
 
 div.widget.suerte {
@@ -641,7 +669,7 @@ div.arette img {
 width: 70%;
 }
 
-div.widget.oro-de-lidia {
+/*div.widget.oro-de-lidia {
 text-align: center;
 margin-left: auto;
 margin-right: auto;
@@ -649,6 +677,19 @@ border-bottom: solid 1px;
 }
 
 div.widget.oro-de-lidia img {
+width: 100%;
+}
+*/
+div.widget.uno {
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+border-bottom: solid 1px;
+padding-left: 0;
+padding-right: 0;
+}
+
+div.widget.uno img {
 width: 100%;
 }
 
@@ -664,6 +705,18 @@ margin-right: auto;
 border-bottom: solid 1px;
 }
 
+div.widget.don-alberto {
+/*width: 80%;*/
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+border-bottom: solid 1px;
+padding: 0;
+}
+
+div.widget.don-alberto img {
+width: 100%;
+}
 
 div.widget.siete-leguas img {
 width: 100%;
@@ -928,7 +981,7 @@ img.square-logo {
 
 div.lou-agave{
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 10px;
     color: #DC7075;
     font-weight: bold;
@@ -992,6 +1045,10 @@ margin-right: auto;
 .widget.about-me .widget-content .flip-container .flip .front .avatar img {
 width: 66%;
 /*margin-top: 2rem;*/
+}
+
+.widget.about-me{
+    padding-bottom: 65px;
 }
 
 div.logo-area .container {
@@ -1281,7 +1338,7 @@ div.col-md-3 div.widget.about-me{
 }
 
 div.lou-agave {
-    font-size: 18px;
+    font-size: 30px;
 }
 
 section#intro.covered{
@@ -1538,6 +1595,7 @@ margin-top: 0rem;
 max-width: 30rem;
 margin-left: auto;
 margin-right: auto;
+padding-bottom: 65px;
 }
 
 /*FOR SMALL FIXED WIDTH MOBILE*/
@@ -1630,7 +1688,7 @@ img.square-logo {
     margin-left: 10px;
     margin-right: 10px;
     overflow: hidden;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 div.shrink-ads{
     width: 72%;
@@ -1648,7 +1706,7 @@ div.col-md-3 div.widget.about-me{
 }
 
 div.lou-agave {
-    font-size: 16px;
+    font-size: 24px;
 }
 
 a.navbar-brand.logo-img img {
