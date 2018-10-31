@@ -459,6 +459,21 @@ padding-right: 0;
 border-bottom: solid 1px;
 }
 
+div.widget.sangre img {
+    width:100%;
+    position:relative;
+}
+
+div.widget.sangre {
+/*width: 80%;*/
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+padding-left: 0;
+padding-right: 0;
+border-bottom: solid 1px;
+}
+
 div.widget.g4 img {
     width:100%;
 }
@@ -601,11 +616,63 @@ padding-right: 0;
 
 }
 
+div.widget.elrey img {
+width: 108%;
+text-align: center;
+position: relative;
+right: 10px;
+}
+
+div.widget.elrey {
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+padding-left: 0;
+padding-right: 0;
+padding-bottom: 60px;
+padding-top: 60px;
+border-bottom: solid 1px;
+
+}
+
+div.widget.azunia img {
+width: 108%;
+text-align: center;
+position: relative;
+right: 10px;
+}
+
+div.widget.azunia {
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+padding-left: 0;
+padding-right: 0;
+padding-bottom: 60px;
+padding-top: 60px;
+border-bottom: solid 1px;
+
+}
+
 div.widget.alquimia img {
     width:100%;
 }
 
 div.widget.alquimia {
+/*width: 80%;*/
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+padding-left: 2px;
+padding-right: 2px;
+border-bottom: solid 1px;
+}
+
+div.widget.suave img {
+    width:70%;
+}
+
+div.widget.suave {
 /*width: 80%;*/
 text-align: center;
 margin-left: auto;
